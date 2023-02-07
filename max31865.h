@@ -20,16 +20,12 @@
 
 // Define your SPI pins
 /* ********************************* */
-#define CS_PORT     PORTB
-#define CS_PIN      0
-#define DRDY_PORT   PORTB
-#define DRDY_PIN    1
-#define MOSI_PORT   PORTB
-#define MOSI_PIN    3
-#define MISO_PORT   PORTB
-#define MISO_PIN    4
-#define SCK_PORT    PORTB
-#define SCK_PIN     5
+#define MAX_CS     B,0
+#define MAX_DRDY   B,1
+#define MAX_MOSI   B,3
+#define MAX_MISO   B,4
+#define MAX_SCK    B,5
+
 
 //Registers defined in Table 1 on page 12 of the datasheet
 #define READ_CONFIGURATION              0b00000000  // 0x00H
