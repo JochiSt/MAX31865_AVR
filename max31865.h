@@ -22,6 +22,7 @@
 /* ********************************* */
 #define MAX_CS     B,0
 #define MAX_DRDY   B,1
+#define MAX_SS     B,2
 #define MAX_MOSI   B,3
 #define MAX_MISO   B,4
 #define MAX_SCK    B,5

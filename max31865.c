@@ -49,6 +49,8 @@ void max_init_port(void) {
     SET_OUTPUT(MAX_CS);
     SET(MAX_CS);
 
+    SET_OUTPUT(MAX_SS); // needs to be either put on HIGH or set as output!
+
     // set inputs
     SET_INPUT(MAX_DRDY);
     RESET(MAX_DRDY);
